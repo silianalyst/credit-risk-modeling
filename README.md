@@ -138,11 +138,11 @@ Metrics used:
 *(Actual results depend on model execution - update with your specific results)*
 
 **Key Metrics**:
-- Accuracy: ~XX%
-- AUC-ROC: ~0.XX
-- Sensitivity: ~XX%
-- Specificity: ~XX%
-- Precision: ~XX%
+- Accuracy: ~97.57%
+- AUC-ROC: ~0.9572
+- Sensitivity: ~ 82.93%
+- Specificity: ~99.42%
+- Precision: ~94.73%
 
 ### Top Predictive Features
 The model identifies the most influential features in predicting default risk:
@@ -157,7 +157,7 @@ Positive coefficients indicate features associated with higher default risk, whi
 ## Key Findings
 
 ### Default Rate Insights
-- **Overall default rate**: ~XX% of loans in the dataset
+- **Overall default rate**: ~11.19% of loans in the dataset
 - **Interest rate**: Strong positive correlation with default risk
 - **Loan grade**: Lower grades (F, G) show significantly higher default rates
 - **Debt-to-income ratio**: Higher DTI correlates with increased default probability
